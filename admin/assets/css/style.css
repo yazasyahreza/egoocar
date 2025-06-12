@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  /* mengatur design navbar */
+  background-color: #1f242d;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  position: fixed;
+}
+
+.navbar .navbar-nav .nav-link{
+  /* animasi ketika text link navbar dihover */
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  /* animasi ketika text link navbar dihover */
+  color: #20b2aa;
+}
+
+@media screen and (max-width: 768px){
+  .toggle-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    margin-right: -10px;
+  }
+
+  .toggle-menu span{
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 35px;
+  }
+
+  .navbar{
+    position: relative;
+    padding: 20px;
+  }
+
+  .navbar .navbar-nav{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -300px;
+    right: 0;
+    background: #1f242d;
+    padding: 35px 0;
+  }
+
+  .navbar .navbar-nav.show{
+    top: 70px;
+  }
+}
+
+.tabelrespon{
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .tabelrespon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
