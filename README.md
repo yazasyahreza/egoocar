@@ -1,1 +1,1 @@
-Egoocar is an ecommerce website in the form of a car shop that I made when I was still in school. This simple ecommerce website uses HTML, CSS, PHP, MySQL, and JS technologies. Users can interact with the website and read information about car sales.
+This is my individual project for the final exam in the form of a car shop ecommerce website. This ecommerce website uses HTML, CSS, PHP, MySQL, and JS technologies. Users can interact with the website and read information about car sales.
