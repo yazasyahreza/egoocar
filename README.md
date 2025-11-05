@@ -1,1 +1,1 @@
-This is my individual project for the final exam in the form of a car shop ecommerce website. This ecommerce website uses HTML, CSS, PHP, MySQL, and JS technologies. Users can interact with the website and read information about car sales.
+This is my individual project for my final exam at school to create an e-commerce website for a car dealership. It was designed using PHP, MySQL, and Bootstrap technologies. The website is also divided into two systems: an administrator system and a landing page display.
