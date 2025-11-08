@@ -1,5 +1,6 @@
-This is my individual project for my final exam at school to create an e-commerce website for a car dealership. It is designed using PHP, MySQL, and Bootstrap technologies. The website is also divided into two systems: an administrator system and a landing page display.
+This project is a car dealership e-commerce website developed as my final exam assignment using PHP, MySQL, and Bootstrap. The system consists of two components:
 
-On the administrator page, you can perform CRUD operations to manage the product data that will be displayed on the landing page.
+- Admin Panel: Provides CRUD functionality for managing car data, including adding, updating, and deleting listings.
+- Landing Page: Offers an interactive interface where users can explore car models by brand or category and view detailed information such as pricing and store profiles.
 
-On the landing page, you can interact with the website, such as viewing car types by category or brand and accessing information like the store profile, types of cars, and their prices.
+The project highlights my understanding of frontend–backend integration, database design, and responsive UI implementation.
